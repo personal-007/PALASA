@@ -1,0 +1,78 @@
+/*-----------------
+* [Master Stylesheet]
+*
+* Theme    : Palasareddy Duvvuru
+* Version  : 1.0
+* Author   : gauthaman
+* 
+------------------*/
+::-webkit-scrollbar{
+    width: 4px;
+    color:#00FFFF;
+}
+::-webkit-scrollbar-thumb {
+    background: #00FFFF; 
+    border-radius: 4px;
+    width: 4px;
+  }
+  #breaker{
+      background-color: #00FFFF;
+  }
+  .color{
+      color: #00FFFF;
+  }
+  #about-content a{
+      color:#00FFFF;
+  }
+  .cv a button{
+      background: #00FFFF;
+  }
+  .service-img img{
+    background: #00FFFF;
+    box-shadow:0px 0px 0px 0px #00FFFF ;
+  }
+  .service:hover .service-img img{
+    box-shadow:0px 0px 0px 400px #00FFFF ;
+}
+.html-progress{
+    background: #00FFFF;
+}
+.js-progress{
+    background: #00FFFF;
+}
+.adobe-progress{
+    background: #00FFFF;
+}
+.php-progress{
+    background: #00FFFF;
+}
+.jquery-progress{
+    background: #00FFFF;
+}
+.seo-progress{
+    background: #00FFFF;
+}
+.portfolio-text h2{
+    color: #00FFFF;
+}
+.portfolio-text button{
+    color: #00FFFF;
+    border: 1.5px solid #00FFFF;
+}
+.portfolio-text button::before{
+    background: #00FFFF;
+}
+.portfolio-image img::before{
+    background: #00FFFF;
+}
+.blog-date{
+    background: #00FFFF;
+}
+form button{
+    background: #00FFFF;
+}
+@media all and (max-width: 550px) and (min-width: 5px){
+    .service:hover .service-img img{
+        box-shadow:0px 0px 0px 0px #c70039 ;
+    }
+}
